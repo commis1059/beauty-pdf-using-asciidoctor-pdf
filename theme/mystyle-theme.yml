@@ -1,10 +1,10 @@
 font:
   catalog:
-    AozoraMincho:
-      normal: AozoraMinchoRegular.ttf
-      italic: AozoraMinchoMedium.ttf
-      bold: AozoraMinchoHeavy.ttf
-      bold_italic: AozoraMinchoBlack.ttf
+    IPAexMincho:
+      normal: ipaexm.ttf
+      italic: ipaexm.ttf
+      bold: ipaexm.ttf
+      bold_italic: ipaexm.ttf
     GenShinGothic-P:
       normal: GenShinGothic-P-Normal.ttf
       italic: GenShinGothic-P-Regular.ttf
@@ -17,13 +17,13 @@ font:
       bold_italic: RictyDiminished-BoldOblique.ttf
     M+ 1mn:
       normal: mplus1mn-regular-ascii-conums.ttf
-      bold: mplus1mn-bold-ascii.ttf
       italic: mplus1mn-italic-ascii.ttf
+      bold: mplus1mn-bold-ascii.ttf
       bold_italic: mplus1mn-bold_italic-ascii.ttf
     M+ 1p Fallback:
       normal: mplus1p-regular-fallback.ttf
-      bold: mplus1p-regular-fallback.ttf
       italic: mplus1p-regular-fallback.ttf
+      bold: mplus1p-regular-fallback.ttf
       bold_italic: mplus1p-regular-fallback.ttf
   fallbacks:
     - M+ 1p Fallback
@@ -38,7 +38,7 @@ page:
 base:
   align: left
   font_color: 333333
-  font_family: AozoraMincho # Noto Serif
+  font_family: IPAexMincho
   font_size: 10
   line_height_length: 15
   line_height: $base_line_height_length / $base_font_size
